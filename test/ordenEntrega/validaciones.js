@@ -128,7 +128,9 @@ let inputsAncho = document.getElementsByClassName("maximoal");
       })
       .then(response => response.text())
       .then(data => {
-        console.log(data);
+         json = JSON.parse(data);
+        console.log(json);
+        alert(json.message);
       })
       .catch(error => {
         console.error(error);
