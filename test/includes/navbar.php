@@ -23,13 +23,13 @@ $rutaUpdate= "../RUDEnvios/index.php"
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="<?=$rutaOrden?>">Generar Orden</a>
+                    <a class="nav-link active" aria-current="page" href="http://localhost/test/ordenEntrega/">Generar Orden</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href=<?=$rutaUpdate?>>Crud Envios</a>
+                    <a class="nav-link" href="http://localhost/test/RUDEnvios/">Crud Envios</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href=<?=$rutaConsulta?>>Consultar ID</a>
+                    <a class="nav-link" href="http://localhost/test/ApiUsers/">Consultar ID</a>
                   </li>
                  
                 </ul>
